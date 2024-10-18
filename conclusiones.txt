@@ -1,0 +1,12 @@
+
+# Conclusiones
+
+Este proyecto proporcionó una introducción al enfoque BDD usando Serenity BDD, lo cual implicó aprender conceptos como tasks, actors y questions. Aunque útiles para estructurar las pruebas, estos elementos añadieron complejidad técnica.
+
+1. **Tasks y Actors**: Incorporar tasks y actors permitió modularizar las acciones de los usuarios en las pruebas. Sin embargo, su implementación inicial fue complicada debido a la curva de aprendizaje, ya que separa las interacciones en varias clases, lo que requiere mayor organización.
+
+2. **Questions**: El uso de questions introdujo una nueva forma de hacer verificaciones, separando las acciones de la validación, pero esto también supuso mayor complejidad, ya que se tuvo que dividir el flujo de las pruebas en múltiples componentes.
+
+3. **Configuración en serenity.conf**: La configuración de una URL base en el archivo `serenity.conf` fue útil para cambiar entre entornos fácilmente. A pesar de esto, la gestión centralizada de configuraciones añadió otra capa de dificultad técnica, especialmente en la integración con diferentes entornos.
+
+En resumen, la incorporación de tasks, actors y questions agrega valor a largo plazo, pero también trae consigo dificultades técnicas al tener que gestionar varios archivos y componentes interrelacionados.
